@@ -8,7 +8,7 @@ Category:            Web
 Build-type:          Simple
 Cabal-version:       >=1.2
 
-Executable DynGraphQL
+Executable DynGraphql
   hs-source-dirs: src
   main-is: Main.hs
 
@@ -19,7 +19,9 @@ Executable DynGraphQL
     snap-core                 >= 1.0   && < 1.1,
     snap-server               >= 1.0   && < 1.2,
     papa                      >= 0.3.1 && < 0.4,
-    snap                      >= 1.0   && < 1.2
+    snap                      >= 1.0   && < 1.2,
+    graphql-api               <=0.3.0
+
 
   default-extensions:  NoImplicitPrelude
 
